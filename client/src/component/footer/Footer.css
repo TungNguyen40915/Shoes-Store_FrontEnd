@@ -1,0 +1,35 @@
+.black-footer{
+    background: #001529 !important;
+    color: #7E7E7E !important;
+}
+.text-color {
+    color: #7E7E7E !important;
+}
+hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #7E7E7E;
+    margin: 1em 0;
+    padding: 0; 
+}
+.link-footer:link {
+    color: #7E7E7E;
+}
+
+.link-footer:visited {
+    color: #7E7E7E;
+}
+
+.link-footer:hover {
+    color: white !important;
+  }
+  .link-footer:active {
+    color: white;
+  }
+.page-footer{
+
+
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

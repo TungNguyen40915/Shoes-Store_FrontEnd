@@ -1,0 +1,42 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.10.9",
+    "firebase": "^5.6.0",
+    "lodash": "^4.17.11",
+    "match-sorter": "^2.3.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-dropzone": "^8.0.1",
+    "react-images-upload": "^1.2.3",
+    "react-redux": "^5.0.7",
+    "react-redux-loading-bar": "^4.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-router-transition": "^1.2.1",
+    "react-scripts": "2.0.4",
+    "react-table": "^6.8.6",
+    "react-transition-group": "^2.5.0",
+    "reactstrap": "^6.5.0",
+    "recharts": "^1.4.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:8080",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

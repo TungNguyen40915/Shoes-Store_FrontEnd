@@ -1,0 +1,32 @@
+img {
+    height: 500px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.slick-prev, .slick-next {
+    font-size: 15px !important;
+  }
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+.slides {
+  position: relative;
+
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index:1;
+}
+
+.slides .slick-prev {
+  left: 1% ;
+}
+
+.slides .slick-next {
+  right: 1%;
+}

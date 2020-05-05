@@ -1,0 +1,35 @@
+.wrapper{
+    position: relative;
+    width: 100%;
+}
+
+.wrapper .button {
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+
+.wrapper:hover .button {
+  opacity: 1;
+}
+.thumbnail {
+    height: 170px;
+    width: 280px;
+}
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-flex > div {
+    margin: auto;
+}

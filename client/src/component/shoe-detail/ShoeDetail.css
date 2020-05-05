@@ -1,0 +1,41 @@
+.small-image-shoe-detail {
+    height: 150px;
+}
+
+.small-image-shoe-detail:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 27px 2px rgba(0,0,0,0.75);
+}
+
+.breadcrumb{
+    background-color: white !important;
+
+}
+
+.chon-size{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.chon-size:hover{
+    cursor: pointer;
+}
+
+.size {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    width: 100px;
+}
+
+.title-radio::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.button {
+    background-color: #343A40 !important;
+    font-size: 2rem !important;
+    color: white !important;
+    font-weight: 600 !important;
+    height: 60px !important;
+}
