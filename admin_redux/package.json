@@ -19,7 +19,7 @@
     "react-table": "^6.8.6",
     "react-transition-group": "^2.5.0",
     "reactstrap": "^6.5.0",
-    "recharts": "^1.4.1",
+    "recharts": "^2.1.14",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
   },
