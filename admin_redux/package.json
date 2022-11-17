@@ -15,7 +15,7 @@
     "react-redux-loading-bar": "^4.1.0",
     "react-router-dom": "^4.3.1",
     "react-router-transition": "^1.2.1",
-    "react-scripts": "2.0.4",
+    "react-scripts": "5.0.1",
     "react-table": "^6.8.6",
     "react-transition-group": "^2.5.0",
     "reactstrap": "^6.5.0",
